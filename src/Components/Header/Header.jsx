@@ -17,7 +17,7 @@ const Header = () => {
     setScrolled(lastest > 10);
   });
   return (
-    <header className={`fixed w-full flex justify-between items-center p-8 ${scrolled ? 'bg-primary/95 py-6 backdrop-blur-md shadow-xl/30' : 'bg-transparent'}`}>
+    <header className={`fixed z-10 w-full flex justify-between items-center p-8 ${scrolled ? 'bg-primary/95 py-6 backdrop-blur-md shadow-md' : 'bg-transparent'}`}>
         <Logo />
         <Nav navActivate={hamburgerActive}/>
         <Hamburger hamburgerActive={hamburgerActive} hamburgerActiveHandler={hamburgerActiveHandler}/>
