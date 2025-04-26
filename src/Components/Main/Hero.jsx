@@ -4,7 +4,8 @@ import { motion } from 'motion/react';
 
 const Hero = () => {
   return (
-    <div 
+    <section
+    id='hero' 
     className='h-[100vh] relative px-8 py-2 text-center bg-gradient-to-r from-slate-800 to-bg-primary flex flex-col gap-2 items-center pt-30'>
       <motion.h1 
       initial={{translateY: 25, opacity: 0}}
@@ -38,10 +39,10 @@ const Hero = () => {
         <a href="" className='block p-2 rounded-full bg-gray-700/25 group'><Github className='text-slate-500 group-hover:text-secondary transition-all duration-300 ease-in-out'/></a>
         <a href="" className='block p-2 rounded-full bg-gray-700/25 group'><Mail className='text-slate-500 group-hover:text-secondary transition-all duration-300 ease-in-out'/></a>
       </motion.div>
-      <a href="" className='absolute bottom-10 animate-bounce text-slate-500 transition-colors duration-300 ease-in-out hover:text-secondary'>
+      <a href="#about" className='absolute bottom-10 animate-bounce text-slate-500 transition-colors duration-300 ease-in-out hover:text-secondary'>
         <ArrowDown size={25} />
       </a>
-    </div>
+    </section>
   )
 }
 
