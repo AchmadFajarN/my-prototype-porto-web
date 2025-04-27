@@ -64,7 +64,7 @@ const About = () => {
           }}
           className='md:flex-1/2'>
             <h3 className='text-xl font-bold'>Personal Info</h3>
-            <div className='grid grid-rows-3 gap-4 mt-6 md:grid-cols-2 md:grid-rows-2'>
+            <div className='grid grid-rows-3 gap-4 mt-6 lg:grid-cols-2 md:grid-rows-2'>
               <div className='px-8 py-4 bg-slate-700/25 rounded-xl'>
                 <div className='flex items-center gap-3 mb-4'>
                   <MapPin className='text-secondary' />
