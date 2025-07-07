@@ -18,7 +18,7 @@ const Footer = () => {
             </div>
             <hr className='my-8 text-slate-500' />
             <div className='flex flex-col items-center md:flex-row md:justify-between'>
-                <p className='text-slate-500 text-sm'>© 2025 YourName. All rights reserved.</p>
+                <p className='text-slate-500 text-sm'>© 2025 AchmadFajar. All rights reserved.</p>
                 <div className="flex gap-8 mt-2 md:m-0">
                     <a href="#hero" className='text-slate-500 text-sm hover:text-indigo-500 duration-300 ease-in-out'>Privacy Policy</a>
                     <a href="#hero" className='text-slate-500 text-sm hover:text-indigo-500 duration-300 ease-in-out'>Terms of Service</a>
